@@ -92,6 +92,7 @@ section {
   text-transform: uppercase;
 }
 
+
 .btn {
   margin-top: 1rem;
   display: inline-block;
@@ -136,7 +137,7 @@ section {
 
 .service .box-container {
   display: grid;
-  grid-template-columns: repeat(3, minmax(27rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
   gap: 1.5rem;
 }
 
@@ -463,6 +464,7 @@ html::-webkit-scrollbar-thumb {
   border-radius: 5rem;
 }
 
+
 .theme-toggler {
   position: fixed;
   top: 10rem;
@@ -572,7 +574,7 @@ html::-webkit-scrollbar-thumb {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   html {
     font-size: 50%;
   }
