@@ -92,7 +92,6 @@ section {
   text-transform: uppercase;
 }
 
-
 .btn {
   margin-top: 1rem;
   display: inline-block;
@@ -464,7 +463,6 @@ html::-webkit-scrollbar-thumb {
   border-radius: 5rem;
 }
 
-
 .theme-toggler {
   position: fixed;
   top: 10rem;
@@ -574,7 +572,7 @@ html::-webkit-scrollbar-thumb {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 450px) {
   html {
     font-size: 50%;
   }
